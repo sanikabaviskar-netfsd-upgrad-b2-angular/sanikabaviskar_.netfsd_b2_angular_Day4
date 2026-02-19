@@ -1,0 +1,17 @@
+let number = 7;
+
+let sign = (number >= 0) ? "Positive" : "Negative";
+console.log("Number: " + number);
+console.log("Sign: " + sign);
+
+if (number % 2 === 0) {
+    console.log("Parity: Even");
+} else {
+    console.log("Parity: Odd");
+}
+
+console.log("Numbers from 1 to " + number + ":");
+
+for (let i = 1; i <= number; i++) {
+    console.log(i);
+}
